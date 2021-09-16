@@ -23,8 +23,8 @@
     ```
     default password is admin for development - must be changed for production
 ## Deploying on a public server with a real domain 
-    Let's say you have a domain example.com and it's DNS records point to your production server. Just repeat the local deployment steps, but don't forget to update DOMAIN, EMAIL and CERT_RESOLVER environment variables. In case of example.com, your .env file should have the following lines:
 
+    Let's say you have a domain example.com and it's DNS records point to your production server. Just repeat the local deployment steps, but don't forget to update DOMAIN, EMAIL and CERT_RESOLVER environment variables. In case of example.com, your .env file should have the following lines:
    ```
    DOMAIN=example.com
    EMAIL=your@email.com
